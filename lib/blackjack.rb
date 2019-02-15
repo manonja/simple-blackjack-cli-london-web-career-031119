@@ -44,7 +44,8 @@ def hit?(current_cards)
   if input == "s" 
     current_cards
   elsif input == "h"
-    deal_card
+    new_card = deal_card
+    current_cards += new_card
   else
     invalid_command
   end
