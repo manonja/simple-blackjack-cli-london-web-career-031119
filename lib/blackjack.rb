@@ -40,7 +40,11 @@ def hit?
   # code hit? here
   prompt_user
   input = get_user_input
-  if input == "s"
+ 
+  if input == "s" 
+    
+  elsif input == "h"
+    deal_card
     
 end
 
