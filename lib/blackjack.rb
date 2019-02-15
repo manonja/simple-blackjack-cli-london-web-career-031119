@@ -29,7 +29,7 @@ def end_game
   puts "Sorry, you hit #{display_card_total}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round(deal_card)
   # code #initial_round here
   display_card_total
   sum = deal_card + deal_card
@@ -38,6 +38,8 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
