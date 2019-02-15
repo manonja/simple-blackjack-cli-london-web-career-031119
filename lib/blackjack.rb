@@ -53,7 +53,9 @@ def hit?(current_cards)
 end
 
 def invalid_command
-  # code invalid_command here
+  # code invalid_command here 
+  puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
@@ -62,5 +64,6 @@ end
 
 def runner
   # code runner here
+  
 end
     
